@@ -5,12 +5,13 @@ go 1.17
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.7.1
-	github.com/gorilla/mux v1.7.3
 	gorm.io/driver/postgres v1.1.0
 	gorm.io/gorm v1.21.9
+	honnef.co/go/tools v0.0.1-2019.2.3
 )
 
 require (
+	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.13.0 // indirect
 	github.com/go-playground/universal-translator v0.17.0 // indirect
@@ -35,5 +36,6 @@ require (
 	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 // indirect
 	golang.org/x/sys v0.0.0-20201119102817-f84b799fce68 // indirect
 	golang.org/x/text v0.3.3 // indirect
+	golang.org/x/tools v0.0.0-20200103221440-774c71fcf114 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 )

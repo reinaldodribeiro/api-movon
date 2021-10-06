@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
+	"honnef.co/go/tools/config"
 )
 
 type jwtService struct {
